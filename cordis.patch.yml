@@ -1,0 +1,6 @@
+# dsh boot splash: inserts this plugin into a profile's layer stack.
+# Disable it without uninstalling by adding `disabled: true` to this row in the
+# profile's cordis.patch.yml (the loader re-applies the choice on every boot).
+- insert:
+    - id: dsh-boot-splash
+      name: 'dsh-boot-splash'

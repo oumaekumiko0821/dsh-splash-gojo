@@ -1,0 +1,36 @@
+{
+  "name": "dsh-boot-splash",
+  "description": "Boot splash animation for DeepSeek Harness: a full-screen opening sequence built around your own artwork, painted from the first frame of the boot HTML",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "assets/icon.jpg",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node tests/verify.mjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jsdom": "^27.0.0"
+  },
+  "files": [
+    "lib",
+    "src",
+    "assets",
+    "scripts",
+    "tests",
+    "preview",
+    "cordis.patch.yml",
+    "README.md"
+  ]
+}

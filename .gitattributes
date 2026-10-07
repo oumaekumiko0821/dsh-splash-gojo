@@ -1,0 +1,4 @@
+# Normalize line endings: this package ships JavaScript and YAML.
+* text=auto eol=lf
+*.jpg binary
+*.png binary
