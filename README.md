@@ -114,7 +114,9 @@ dsh --profile splash-probe --no-open --port 0     # 打印带 token 的地址
 
   > B 站《【新宿决战】DeepSeek娘VS豆包》 — https://www.bilibili.com/video/BV1dsai6CErz
 
-  版权归原作者所有；此处仅用于插件演示、保留出处、不作商业使用。原作者如有异议，我会立即移除该素材（换回占位图，或让使用者自行配置图片）。
+  版权归原作者所有；此处仅用于插件演示、保留出处、不作商业使用。原作者如有异议，我会立即移除该素材。
+  完整说明见 [`NOTICE`](NOTICE)。
 - `assets/icon.jpg` — 由上述素材裁切生成，供插件管理页卡片显示，适用范围同上。
 - **想换成自己的图**：替换 `assets/boot-splash.jpg`（任意尺寸的 JPEG）后执行 `npm run build`，图片会被重新内联进 `lib/index.js`。
+
 

@@ -1,0 +1,22 @@
+dsh-boot-splash — NOTICE
+========================
+
+Code
+----
+MIT. See LICENSE.
+
+Bundled artwork (NOT covered by the MIT grant)
+----------------------------------------------
+`assets/boot-splash.jpg`, `assets/icon.jpg`, and the copy inlined into
+`lib/index.js` are a frame from a third-party fan work published on Bilibili:
+
+    《【新宿决战】DeepSeek娘VS豆包》
+    https://www.bilibili.com/video/BV1dsai6CErz
+
+Copyright belongs to the original author. It is included here for
+demonstration only, with the source credited, and for no commercial use.
+If the author objects, the artwork will be removed — replaced with a neutral
+placeholder, or left for each user to supply their own image via
+`assets/boot-splash.jpg` + `npm run build`.
+
+Everything else in this repository is original to this project.

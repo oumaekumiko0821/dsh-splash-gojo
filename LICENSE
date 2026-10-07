@@ -19,10 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-The MIT grant above covers the plugin's code only. The bundled artwork
-(`assets/boot-splash.jpg`, `assets/icon.jpg`, and the copy inlined into
-`lib/index.js`) is third-party material and is NOT covered by it — see the
-"素材与许可" section of README.md.
