@@ -20,6 +20,12 @@
     "test": "node tests/verify.mjs"
   },
   "license": "MIT",
+  "author": "oumaekumiko0821",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oumaekumiko0821/dsh-splash-gojo.git"
+  },
+  "homepage": "https://github.com/oumaekumiko0821/dsh-splash-gojo",
   "devDependencies": {
     "jsdom": "^27.0.0"
   },
